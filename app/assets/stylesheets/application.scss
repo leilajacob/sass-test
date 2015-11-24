@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+.box2 {
+	width: 50%;
+}
+
+@media screen and (max-width: 550px){
+	.box2 {
+		width: 100%;
+	}
+}
+
